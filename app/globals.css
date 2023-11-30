@@ -20,6 +20,9 @@ body,
   @apply xl:text-[7rem] text-[3rem] xl:leading-[8rem] leading-[4rem] font-black;
 }
 
+.mb-head-text {
+  @apply xl:text-[8rem] text-[4rem] xl:leading-[8rem] leading-[5rem] font-black;
+}
 
 .half-text {
   @apply xl:text-[3rem] text-[3rem] xl:leading-[3rem] leading-[3rem] font-black;

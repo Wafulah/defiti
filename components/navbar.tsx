@@ -43,7 +43,12 @@ const Navbar = () => {
             target="_blank"
             rel="noreferrer"
           >
-            <Image src="/logo.svg" width={50} height={50} alt="D,efiti Logo" />
+            <Image
+              src="/logo-color.svg"
+              width={50}
+              height={50}
+              alt="D,efiti Logo"
+            />
           </a>
         </h1>
       </div>
@@ -67,7 +72,7 @@ const Navbar = () => {
       </div>
 
       {nav && (
-        <ul className="bg-black flex flex-col justify-center items-center absolute top-0 left-0 w-full h-screen  text-gray-500">
+        <ul className="bg-black flex flex-col justify-center items-center absolute top-0 left-0 w-full h-screen  text-gray-500 z-40">
           {links.map(({ id, link }) => (
             <li
               key={id}
