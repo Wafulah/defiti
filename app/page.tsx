@@ -1,7 +1,7 @@
 "use client"
 
+import { useEffect, useState } from 'react';
 import { useMediaQuery } from '@react-hook/media-query';
-import Image from 'next/image';
 
 import Headerxl from '@/components/headerxl';
 import Headersm from '@/components/header/headersm';
@@ -15,7 +15,17 @@ import Orderxl from '@/components/order/orderxl';
 import Ordersm from '@/components/order/ordersm';
 
 export default function Home() {
-  const isScreenSmall = useMediaQuery('(max-width: 640px)'); 
+  const isScreenSmall = useMediaQuery('(max-width: 640px)');
+  const [isMounted, setIsMounted] = useState(false);
+  
+
+  useEffect(() => {
+    setIsMounted(true);
+  }, []);
+
+  if (!isMounted) {
+    return null;
+  } 
 
   return (
     <div>
