@@ -1,3 +1,5 @@
+"use client";
+
 import Image from "next/image";
 import styles from "./styles";
 
@@ -33,11 +35,14 @@ const Headerxl = () => {
                 Discover your <span style={styles.textColor}>Glamour</span>{" "}
               </p>
             </div>
-            
+
             <div className="w-1/2 h-full items-center text-center flex">
-                <div style={styles.backColor} className="justify-center items-center text-center flex rounded w-3/4 h-2/5 mx-auto" >
+              <div
+                style={styles.backColor}
+                className="justify-center items-center text-center flex rounded w-3/4 h-2/5 mx-auto"
+              >
                 <h1 className="sub-text text-white">Shop</h1>
-                </div>
+              </div>
             </div>
           </div>
         </div>
