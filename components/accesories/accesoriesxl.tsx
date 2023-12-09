@@ -1,11 +1,14 @@
-"use client"
+"use client";
 
 import Image from "next/image";
 import styles from "@/components/styles";
 
+import Info from "./infoxl";
+
 const Accesoriesxl = () => {
   return (
-    <div className="w-full h-screen">
+    <div className="w-full h-screen relative">
+      <Info />
       <div className="w-11/12 h-5/6 m-auto bg-black">
         <div className="w-full h-1/2 flex justify-center">
           <div
