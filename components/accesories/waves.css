@@ -29,7 +29,7 @@
 }
 .wavesm:after {
   content: "";
-  height: 60%;
+  height: 67%;
   position: absolute;
   will-change: transform;
   left: 0;
