@@ -27,7 +27,7 @@ const Categoryxl = () => {
           />
         </div>
         <div style={styles.bottomBorder} className="ml-2 w-3/4 h-3/4 relative">
-        <div className="w-full h-2/5 absolute z-10 glassmorphism bottom-0 flex">
+          <div className="w-full h-2/5 absolute z-10 glassmorphism bottom-0 flex">
             <div className="w-3/4 h-full flex justify-center items-center text-center">
               <p className="font-black text-white text-2xl">Official Suits</p>
             </div>
@@ -46,7 +46,7 @@ const Categoryxl = () => {
       </div>
       <div className="w-full h-1/2 flex justify-center">
         <div style={styles.bottomBorder} className="mr-2 w-3/4 h-3/4 relative">
-        <div className="w-full h-2/5 absolute z-10 glassmorphism bottom-0 flex">
+          <div className="w-full h-2/5 absolute z-10 glassmorphism bottom-0 flex">
             <div className="w-3/4 h-full flex justify-center items-center text-center">
               <p className="font-black text-white text-2xl">Designer clothes</p>
             </div>
@@ -63,7 +63,7 @@ const Categoryxl = () => {
           />
         </div>
         <div style={styles.bottomBorder} className="ml-2 w-3/4 h-3/4 relative">
-        <div className="w-full h-2/5 absolute z-10 glassmorphism bottom-0 flex">
+          <div className="w-full h-2/5 absolute z-10 glassmorphism bottom-0 flex">
             <div className="w-3/4 h-full flex justify-center items-center text-center">
               <p className="font-black text-white text-2xl">Street Wear</p>
             </div>

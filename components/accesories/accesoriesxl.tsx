@@ -2,7 +2,9 @@
 
 import Image from "next/image";
 import styles from "@/components/styles";
+import { LuArrowUpRightSquare } from "react-icons/lu";
 
+import "./waves.css";
 import Info from "./infoxl";
 
 const Accesoriesxl = () => {
@@ -35,6 +37,31 @@ const Accesoriesxl = () => {
               layout="fill"
               objectFit="cover"
             />
+
+            <div className="wave h-1/2 w-full absolute bottom-0">
+              <div
+                style={styles.links}
+                className="absolute bottom-0 w-full z-40 flex h-1/3"
+              >
+                <div className="w-2/3 h-full flex justify-start items-center">
+                  <p className="text-white text-xl text-bold pl-10">
+                    Women&apos;s Shoes
+                  </p>
+                </div>
+                <div className="flex w-1/3 h-full items-center justify-end">
+                  {" "}
+                  <p className="text-white text-xl text-bold">Shop</p>
+                  <a
+                    href="https://sokofiti-store.vercel.app"
+                    style={styles.linkItem}
+                    target="_blank"
+                  >
+                    <LuArrowUpRightSquare className="text-3xl text-white font-black" />
+                  </a>
+                </div>
+              </div>
+              {/* </div> */}
+            </div>
           </div>
           <div
             style={styles.roundBorder}
