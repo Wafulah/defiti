@@ -111,8 +111,6 @@ const Accesoriessm = () => {
                   </p>
                 </div>
                 <div className="flex w-1/3 h-full items-center justify-end">
-                  {" "}
-                  <p className="text-white text-xl text-bold">Shop</p>
                   <a
                     href="https://sokofiti-store.vercel.app"
                     style={styles.linkItem}
