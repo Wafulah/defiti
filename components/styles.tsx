@@ -102,6 +102,9 @@ const styles = {
     mask: "var(--mask)",
     animation: "wave 10s linear infinite alternate",
   },
+  pearlsmHeight:{
+    height: "150vh",
+  }
 };
 
 export default styles;
