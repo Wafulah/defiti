@@ -4,14 +4,18 @@
 
 const styles = {
   textColor: {
-    color: "rgb(255, 55, 0)",
+    color: "rgb(255, 0, 0)",
+  },
+  pinkColor: {
+   color: "rgb(255, 0, 183)",
   },
   backColor: {
-    backgroundColor: "rgb(255, 55, 0)",
+    backgroundColor: "rgb(255, 0, 0)",
   },
   bottomBorder: {
-    borderBottom: "2px solid rgb(255, 55, 0)",
+    borderBottom: "2px solid rgb(255, 0, 0)",
   },
+  
   roundBorder: {
     borderRadius: "50%",
     borderTop: "1px solid rgb(255, 55, 0)",
@@ -22,7 +26,6 @@ const styles = {
   },
   watchDiv: {
     borderRadius: "5%",
-    backgroundColor: "rgb(255, 55, 0)",
     width: "15vw",
     height: "42vh",
     top: "100px",
@@ -30,7 +33,6 @@ const styles = {
   },
   menDiv: {
     borderRadius: "5%",
-    backgroundColor: "rgb(255, 55, 0)",
     width: "15vw",
     height: "38vh",
     bottom: "0px",
@@ -38,7 +40,6 @@ const styles = {
   },
   bagDiv: {
     borderRadius: "5%",
-    backgroundColor: "rgb(255, 55, 0)",
     width: "15vw",
     height: "38vh",
     bottom: "120px",
@@ -46,7 +47,6 @@ const styles = {
   },
   jewelDiv: {
     borderRadius: "5%",
-    backgroundColor: "rgb(255, 55, 0)",
     width: "15vw",
     height: "28vh",
     top: "120px",
@@ -102,9 +102,7 @@ const styles = {
     mask: "var(--mask)",
     animation: "wave 10s linear infinite alternate",
   },
-  pearlsmHeight:{
-    height: "150vh",
-  }
+ 
 };
 
 export default styles;

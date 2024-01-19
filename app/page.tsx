@@ -15,6 +15,7 @@ import Orderxl from "@/components/order/orderxl";
 import Ordersm from "@/components/order/ordersm";
 import Pearlxl from "@/components/pearl/pearlxl";
 import Pearlsm from "@/components/pearl/pearlsm";
+import StoreNumber from "@/components/stores/storeNumber";
 
 export default function Home() {
   const isScreenSmall = useMediaQuery("(max-width: 720px)");
@@ -38,6 +39,7 @@ export default function Home() {
           <Categorysm />
           <Accesoriessm />
           <Ordersm />
+                    <StoreNumber />
         </>
       ) : (
         <>
@@ -47,6 +49,7 @@ export default function Home() {
           <Categoryxl />
           <Accesoriesxl />
           <Orderxl />
+          <StoreNumber />
         </>
       )}
     </div>

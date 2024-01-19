@@ -10,7 +10,7 @@ const Headerxl = () => {
         <div className="w-2/3 h-full">
           <div className="text-start">
             <h1 className="head-text">
-              Elevated <span style={styles.textColor}>Elegance</span>
+              Elevated <span  className="head-exterior">Elegance</span>
             </h1>
             <h1 className="head-text">
               with <span style={styles.textColor}>Style</span>
@@ -32,7 +32,7 @@ const Headerxl = () => {
           >
             <div className="w-1/2 h-full items-center text-center flex">
               <p className="sub-text">
-                Discover your <span style={styles.textColor}>Glamour</span>{" "}
+                Discover your <span  className="head-exterior">Glamour</span>{" "}
               </p>
             </div>
 

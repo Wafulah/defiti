@@ -19,6 +19,14 @@ const pearlStyles = {
     top: "145vh",
     left: "32vw",
   },
+  xlLeft: {
+    top: "178vh",
+    left: "40vw",
+  },
+  xlRight: {
+    top: "152vh",
+    left: "32vw",
+  },
 };
 
 export default pearlStyles;

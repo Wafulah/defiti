@@ -28,7 +28,7 @@ const Footer = () => {
   ];
   return (
     <div
-      className="bg-black w-full mt-1"
+      className="bg-black w-full lg:mt-0 mt-0"
     >
  
       <div className="lg:w-1/2 lg:justify-start lg:text-justify lg:items-start text-center justify-center items-center flex flex-col ">

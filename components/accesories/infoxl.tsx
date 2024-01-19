@@ -7,7 +7,7 @@ import { LuArrowUpRightSquare } from "react-icons/lu";
 const Info = () => {
   return (
     <div className="absolute w-screen h-screen ">
-      <div style={styles.watchDiv} className="absolute">
+      <div style={styles.watchDiv} className="gradient-div absolute">
         <div className="w-11/12 h-4/5 mx-auto mt-3">
           <div className="w-full h-1/3 mt-10 flex text-start items-center justify-start">
             <p className="text-white text-3xl font-black">Watches</p>
@@ -31,7 +31,7 @@ const Info = () => {
         </div>
       </div>
 
-      <div style={styles.menDiv} className="absolute">
+      <div style={styles.menDiv} className="gradient-div absolute">
         <div className="w-11/12 h-4/5 mx-auto mt-3">
           <div className="w-full h-1/3 mt-2 flex text-start items-center justify-start">
             <p className="text-white text-xl font-black">Men&apos;s Shoes</p>
@@ -55,7 +55,7 @@ const Info = () => {
         </div>
       </div>
 
-      <div style={styles.bagDiv} className="absolute">
+      <div style={styles.bagDiv} className="gradient-div absolute">
         <div className="w-11/12 h-4/5 mx-auto mt-3">
           <div className="w-full h-1/3 mt-4 flex text-end items-center justify-end">
             <p className="text-white text-3xl font-black">Bags</p>
@@ -79,7 +79,7 @@ const Info = () => {
         </div>
       </div>
 
-      <div style={styles.jewelDiv} className="absolute">
+      <div style={styles.jewelDiv} className="gradient-div absolute">
         <div className="w-11/12 h-4/5 mx-auto mt-3">
           <div className="w-full h-1/3 mt-2 flex text-end items-center justify-end">
             <p className="text-white text-3xl font-black">Jewelry</p>

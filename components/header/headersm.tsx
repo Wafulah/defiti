@@ -10,7 +10,7 @@ const Headersm = () => {
         <div className="w-full h-full absolute z-20 top-10">
           <div className="text-center flex flex-col items-center justify-center">
             <h1 className="mb-head-text text-white">
-              Elevated <span style={styles.textColor}>Elegance</span>
+              Elevated <span className="head-exterior">Elegance</span>
             </h1>
             <h1 className="mb-head-text text-white">
               with <span style={styles.textColor}>Style</span>
@@ -32,7 +32,7 @@ const Headersm = () => {
           >
             <div className="w-1/2 h-full items-center text-center flex">
               <p className="sub-text">
-                Discover your <span style={styles.textColor}>Glamour</span>{" "}
+                Discover your <span className="head-exterior">Glamour</span>{" "}
               </p>
             </div>
 

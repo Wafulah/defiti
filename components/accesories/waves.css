@@ -9,7 +9,7 @@
   top: 0;
   bottom: 0;
   right: -300vw;
-  background: rgb(255, 55, 0);
+  background: rgb(255, 0, 0);
   --mask: radial-gradient(75.15px at 50% 101.5px, #000 99%, #0000 101%)
       calc(50% - 70px) 0/140px 100%,
     radial-gradient(75.15px at 50% -66.5px, #0000 99%, #000 101%) 50% 35px/140px
@@ -35,7 +35,7 @@
   left: 0;
   bottom: 0;
   right: -300vw;
-  background: rgb(255, 55, 0);
+  background: rgb(255, 0, 0);
   --mask: radial-gradient(75.15px at 50% 101.5px, #000 99%, #0000 101%)
       calc(50% - 70px) 0/140px 100%,
     radial-gradient(75.15px at 50% -66.5px, #0000 99%, #000 101%) 50% 35px/140px
