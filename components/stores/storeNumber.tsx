@@ -1,6 +1,6 @@
 import React from "react";
 
-import { FcAssistant, FcApproval, FcRating, FcShipped } from "react-icons/fc";
+import { LuBadgeCheck, LuAward, LuBus, LuMessageSquare } from "react-icons/lu";
 
 const StoreNumber = () => {
   return (
@@ -14,20 +14,14 @@ const StoreNumber = () => {
           <div className="w-11/12 h-5/6 mx-auto">
             <div className="h-1/2 w-full flex justify-between mx-auto ">
               <div className="glassmorphism  w-[48%] h-5/6 ">
-                <FcRating
-                  style={{ color: "rgb(255,55,0)" }}
-                  className="text-5xl pt-10 px-3 font-black"
-                />
+                <LuAward className="text-white text-7xl pt-10 px-3 font-black" />
                 <p className="text-white text-bold pt-2 px-3">
                   {" "}
                   Only Top Rated Designers and Brands.
                 </p>
               </div>
               <div className="w-[48%] h-5/6 glassmorphism">
-                <FcApproval
-                  style={{ color: "rgb(255,55,0)" }}
-                  className="text-5xl pt-10 px-3 font-black"
-                />
+                <LuBadgeCheck className="text-white text-7xl pt-10 px-3 font-black" />
                 <p className="text-white text-bold pt-2 px-3">
                   {" "}
                   Geniune and Original Brands.
@@ -36,20 +30,14 @@ const StoreNumber = () => {
             </div>
             <div className="h-1/2 w-full flex justify-between mx-auto">
               <div className="w-[48%] h-5/6 glassmorphism">
-                <FcAssistant
-                  style={{ color: "rgb(255,55,0)" }}
-                  className="text-5xl pt-10 px-3 font-black"
-                />
+                <LuMessageSquare className="text-white text-7xl pt-10 px-3 font-black" />
                 <p className="text-white text-bold pt-2 px-3">
                   {" "}
                   Readily Available 24/7 Customer Support{" "}
                 </p>
               </div>
               <div className="w-[48%] h-5/6 glassmorphism">
-                <FcShipped
-                  style={{ color: "rgb(255,55,0)" }}
-                  className="text-5xl pt-10 px-3 font-black"
-                />
+                <LuBus className="text-white text-7xl pt-10 px-3 font-black" />
                 <p className="text-white text-bold pt-2 px-3">
                   {" "}
                   Timely Shipping of Merchindise.{" "}
@@ -65,21 +53,21 @@ const StoreNumber = () => {
       >
         <div className="w-full h-1/4 flex flex-col items-center justify-end">
           <p className="exterior store-text px-3">700+</p>
-          <p className="text-white px-3 text-2xl font-black tracking-tighter">
+          <p className="font-serif text-white opacity-50 px-3 text-2xl font-black tracking-tighter">
             Stores and designers
           </p>
         </div>
 
         <div className="w-full h-1/4 flex flex-col items-center justify-end">
           <p className="exterior store-text px-3">15000+</p>
-          <p className="text-white px-3 text-2xl font-black tracking-tighter">
+          <p className="font-serif text-white opacity-50 px-3 text-2xl font-black tracking-tighter">
             Design and Clothes Sold
           </p>
         </div>
 
         <div className="w-full h-1/4 flex flex-col items-center justify-end">
           <p className="exterior store-text px-3">21+</p>
-          <p className="text-white px-3 text-2xl font-black tracking-tighter">
+          <p className="font-serif text-white opacity-50 px-3 text-2xl font-black tracking-tighter">
             Counties in Kenya
           </p>
         </div>

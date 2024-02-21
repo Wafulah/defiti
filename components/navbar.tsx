@@ -12,7 +12,7 @@ const Navbar = () => {
   const links = [
     {
       id: 1,
-      link: "home",
+      link: "/",
     },
     {
       id: 2,
@@ -24,7 +24,7 @@ const Navbar = () => {
     },
     {
       id: 4,
-      link: "Suppliers",
+      link: "suppliers",
     },
     {
       id: 5,

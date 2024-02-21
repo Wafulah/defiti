@@ -19,7 +19,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body style={{ backgroundColor: "#ffebe6" }}>
+      <body className="font-serif" style={{ backgroundColor: "#ffebe6" }}>
         <Navbar />
         {children}
         <Footer />

@@ -8,8 +8,14 @@ import "./waves.css";
 
 const Accesoriessm = () => {
   return (
-    <div style={{ height: "120vh" }} className="w-full bg-black">
+    <div className="h-[120vh] w-full bg-black">
+      <div className="mx-auto w-11/12 h-1/6 flex justify-center items-center text-center">
+         
+      <h2 className="pt-4 head-exterior half-text ">Accesories <br/>
+      Just For <br/> You</h2>
+      </div>
       <div className="w-11/12 h-5/6 m-auto bg-black">
+       
         <div className="w-full h-1/3 flex justify-center">
           <div
             style={styles.roundBorder}

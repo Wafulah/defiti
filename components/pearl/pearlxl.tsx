@@ -43,7 +43,7 @@ const Pearlxl = () => {
       >
         <div className="h-1 w-40 pink-gradient" />
         <div className="w-5 h-5 rounded-full bg-[rgb(255,55,0)]" />
-      </div>  Giving <span style={styles.textColor}>Kenyans</span>
+      </div>  Giving <span style={styles.textColor}  className="pl-2">Kenyans</span>
         </h3>
         <h1 className="head-text">
           <span style={styles.textColor}>D&apos;efiti</span>

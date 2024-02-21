@@ -7,7 +7,7 @@ const Footer = () => {
   const links = [
     {
       id: 1,
-      link: "home",
+      link: "/",
     },
     {
       id: 2,
@@ -19,7 +19,7 @@ const Footer = () => {
     },
     {
       id: 4,
-      link: "Suppliers",
+      link: "suppliers",
     },
     {
       id: 5,

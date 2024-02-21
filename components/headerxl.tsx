@@ -10,7 +10,7 @@ const Headerxl = () => {
         <div className="w-2/3 h-full">
           <div className="text-start">
             <h1 className="head-text">
-              Elevated <span  className="head-exterior">Elegance</span>
+              Elevated <span  className=" head-exterior">Elegance</span>
             </h1>
             <h1 className="head-text">
               with <span style={styles.textColor}>Style</span>
